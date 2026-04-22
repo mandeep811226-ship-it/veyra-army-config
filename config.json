@@ -2,7 +2,7 @@
   "army_lock": {
     "enabled": true,
     "nodes": {
-      "5": { "lock": true, "time": "12:30" },
+      "5": { "lock": true, "time": "00:30" },
       "6": { "lock": true, "time": "12:00" }
     }
   }
