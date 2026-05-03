@@ -1,9 +1,12 @@
 {
-  "army_lock": {
-    "enabled": true,
-    "nodes": {
-      "5": { "lock": true, "time": "00:30" },
-      "6": { "lock": true, "time": "12:00" }
-    }
-  }
+    "schedules": {
+        "node_5": {
+            "unlock_time": "00:30"
+        },
+        "node_6": {
+            "unlock_time": "12:00"
+        }
+    },
+    "grace_period_minutes": 10,
+    "speedrun_mode": false
 }
